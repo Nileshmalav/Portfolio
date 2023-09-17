@@ -1,0 +1,24 @@
+
+html,body{
+    overflow-x: hidden;
+  }
+
+
+
+
+  [data-aos] {
+    pointer-events: none;
+  }
+  
+  [data-aos].aos-animate {
+    pointer-events: none;
+  }
+/*   
+  .aos-fix[data-aos][data-aos].aos-animate {
+    transform: unset;
+  }
+   */
+  *{
+    /* animation-timing-function:ease; */
+    scroll-behavior: smooth;
+  }
